@@ -1,0 +1,46 @@
+
+nutification
+public string NatitficationOne
+        {
+            get
+            {
+                if (Descriptiont != null) return Descriptiont;
+                return null;
+            }
+        }
+
+
+
+deliveres
+ public string ReadyColor
+        {
+            get
+            {
+                if (Status == 100) return "Green";
+                return "White";
+            }
+        }
+ public string DateEdit
+        {
+            get
+            {
+                if (СustomerТame != null)
+                {
+                    return (Date.Value.Date.ToShortDateString()).ToString();
+                }
+                return Date.ToString();
+                
+            }
+        }
+
+
+
+PlasticProducts
+ public string SumWeight
+        {
+            get
+            {
+                if (SupportsWeight != null) return (SupportsWeight + ProductWeight).ToString();
+                return ProductWeight.ToString();
+            }
+        }
